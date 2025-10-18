@@ -144,7 +144,7 @@ namespace rang_implementation {
             const char *Terms[]
               = { "ansi",    "color",  "console", "cygwin", "gnome",
                   "konsole", "kterm",  "linux",   "msys",   "putty",
-                  "rxvt",    "screen", "vt100",   "xterm" };
+                  "rxvt",    "screen", "vt100",   "xterm",  "xterm-256color" };
 
             const char *env_p = std::getenv("TERM");
             if (env_p == nullptr) {
